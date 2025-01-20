@@ -1,0 +1,300 @@
+<!DOCTYPE html><html><head>
+		
+		<title>CHWAD on Solana</title>
+
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		
+		<link type="text/css" rel="stylesheet" href="css/normalize.css">
+		<link type="text/css" rel="stylesheet" href="css/main.css">
+		<link type="text/css" rel="stylesheet" href="css/stylesheet_1.css">
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+		
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+		
+		<!-- Meta Tags -->
+		<meta property="og:title" content="CHWAD on Solana'">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="images/thumbnail.png">
+		<meta property="og:url" content="https://chwad.life/">
+
+		<meta property="og:description" content="CHWAD on Solana">
+		<meta property="og:site_name" content="CHWAD on Solana">
+		
+		<meta name="twitter:card" content="large.png">
+		<meta name="twitter:site" content="@SolChwadCTO">
+		<meta name="twitter:image:alt" content="large.jpg">
+		<meta name="twitter:image" content="large.jpg">
+
+
+		<script src="js/main.js"></script>
+
+		<script type="text/javascript">
+	
+				// ---
+				function socialClick(social){
+					console.log('SOCIAL = '+social)
+					// ---
+					switch(social){
+						case 'twitter':
+							window.open('https://x.com/SolChwadCTO');
+							break;
+						case 'telegram':
+							window.open('https://t.me/chwadportal')
+							break;
+						case 'dexscreener':
+							window.open('https://dexscreener.com/solana/FHKMQQoVuy22YPx6psddJWTU9cuEQe7PaJG3GSVSLzP4');
+							break;
+						case 'solscan':
+							window.open('https://solscan.io/token/FHKMQQoVuy22YPx6psddJWTU9cuEQe7PaJG3GSVSLzP4');
+							break;
+						case 'copycoinaddress':
+							navigator.clipboard.writeText('FHKMQQoVuy22YPx6psddJWTU9cuEQe7PaJG3GSVSLzP4');
+							alert("Copied CA: " + 'FHKMQQoVuy22YPx6psddJWTU9cuEQe7PaJG3GSVSLzP4');
+							break;
+					};  		
+				};
+			
+				// on load
+				window.addEventListener("load", (event) => {
+					this.setup();
+				});
+			
+		</script>
+
+	</head>
+	<body>
+
+
+				<!-- HEADER -->
+				<!------------------------------------------------------------------------------------------------------> 
+				<div id="header">
+					<div id="btn_header" class="btn" onclick="socialClick('dexscreener')">CHART</div>
+					
+					<img id="header_img" src="images/header_img_one.png">
+					
+				</div>
+			
+
+
+				<!-- INTRO -->
+				<!------------------------------------------------------------------------------------------------------> 
+				<div id="contentIntro">
+					
+					<div class="content">
+
+						<div><h4 id="txt_giga">GIGA</h4></div>
+						<div><h1>CHWAD</h1></div>
+
+						<p style="font-size:26px">wat a guy!</p>
+
+						<div id="infoData_supply" class="infoData" onclick="socialClick('solscan')">
+							<span style="color:#777">Supply: </span>
+							<span>999,470,169</span>
+						</div>
+						
+						<div id="infoData_ca" class="infoData" onclick="socialClick('copycoinaddress')">
+							<span id="infoData_iconSol"><img style="width:40px; margin-right:10px" src="images/solana_circ.png"></span>
+							<span style="color:#777">CA: </span>
+							<span>FHKMQQoVuy22YPx6psddJW</span>
+							<span>TU9cuEQe7PaJG3GSVSLzP4</span>
+						</div>
+
+						<div class="socials">
+							<div class="btn_sq btnSocial" onclick="socialClick('twitter')">
+								<img src="images/x.svg">
+							</div>
+							<div class="btn_sq btnSocial" onclick="socialClick('telegram')">
+								<img src="images/telegram.svg">
+							</div>	
+							<div class="btn_sq btnSocial" onclick="socialClick('dexscreener')">
+								<img src="images/dexscreener.svg">
+							</div>
+						</div>
+					</div>
+				</div>
+
+					
+
+				<!-- STORY -->
+				<!------------------------------------------------------------------------------------------------------> 
+				<div id="contentStory">
+					
+					<img id="story_leaf1" src="images/storyA.png">
+					<img id="story_leaf2" src="images/storyB.png">
+
+					<div class="content">
+						<h2>FWENS</h2>
+						<p>
+							In the land of FWOG lives the biggest damn CHWAD you've ever seen, a true specimen of a guy - all the lady memes love him and all the guy memes wanna be like him! When he's not down at the gym getting ripped or flying on his private jet to Vegas, he's hanging out with his best buds - Fwog & Fwens!
+							<br><br>
+							Come join CHWAD and his fast growing community, but remember - only CHWADs allowed, no crying little bitch babies will be tolerated!
+							<br><br>
+							A True Giga CHWAD! Wat a guy!
+
+						</p>
+						<div class="socials">
+							<div class="btn_sq btnSocial" onclick="socialClick('twitter')">	
+								<img src="images/x.svg">
+							</div>
+							<div class="btn_sq btnSocial" onclick="socialClick('telegram')">
+								<img src="images/telegram.svg">
+							</div>	
+						</div>
+					</div>
+
+				</div>
+
+
+				<!-- CREATOR -->
+				<!------------------------------------------------------------------------------------------------------>
+				<div id="memecreator">
+					<a id="pfp"></a>
+					<h2>PFP</h2>
+					<p>Summon your inner CHWAD!</p>
+
+					<img id="loadingGif" class="loadingGif" src="images/loading.gif">
+
+					<div id="memecreator_container" style="display:none;">
+						
+						<!-- CONTROLS -->
+						<div id="mcTabs">
+							<div id="mcTab_bg" class="mcTab" onclick="tabClick(this)">BG</div>
+							<div id="mcTab_chwad" class="mcTab" onclick="tabClick(this)">CHWAD</div>
+							<div id="mcTab_style" class="mcTab" onclick="tabClick(this)">STYLE</div>
+						</div>
+
+						<!-- CONTROLS -->
+						<div id="mcCanvasHolder">
+
+							<canvas id="canvas" width="512" height="512" style="width: 100%; max-width: 512px;"></canvas>
+
+							<div id="mcGraphics"> 
+								<div id="mcGraphics_scroll"> 
+									<!-- BG -->
+									<div id="mcGraphics_bg">
+										<div class="graphicsGrid">
+											<div style="padding-top: 20px;padding-bottom: 10px;">
+												<span style="line-height: 28px;">Custom: </span><input id="uploaderBackground" class="form-fileField" type="file">
+											</div>
+											<div class="divider"></div>
+											<div id="assets_bg"></div>
+											<div class="divider"></div>
+											<div style="padding-top: 10px;padding-bottom: 10px;">
+												<label for="checkbox_transparent">Transparent Background:</label>
+												<input type="checkbox" name="checkbox" id="checkbox_transparent" value="value" onchange="checkboxClicked(this)">
+											</div>
+										</div>
+									</div>
+									<!-- ACCESSORIES -->
+									<div id="mcGraphics_chwad">
+										<div class="graphicsGrid">
+
+											<div class="divider"><div class="divider-label">FACE</div></div>
+											<div id="assets_face"></div>
+
+											<div class="divider"><div class="divider-label">COLOUR</div></div>
+											<div id="assets_body"></div>
+
+										</div>
+									</div>
+									<!-- FACE -->
+									<div id="mcGraphics_style">
+										<div class="graphicsGrid">
+
+											<div class="divider"><div class="divider-label">HEAD</div></div>
+											<div id="assets_head"></div>
+
+											<div class="divider"><div class="divider-label">BODY</div></div>
+											<div id="assets_outfit"></div>
+
+										</div>
+									</div> 
+
+									
+								</div>
+
+								<div id="btn_close" class="btn_sq" onclick="tabClick('close')">
+									<img id="btn_closeGraphics" src="images/close.svg">
+								</div>
+							</div>
+						</div>
+
+						<!-- END BTNS -->
+						<div id="mcEnd_controls">
+							<div class="mcEnd_btn">
+								<div id="btn_restart" class="btn btnGrey" style="margin-left:0" onclick="autoAddLayers('random')">RANDOM</div>
+							</div>
+							<div class="mcEnd_btn">
+								<div id="btn_download" class="btn" onclick="shareImg()">DOWNLOAD</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- SOLANA -->
+				<!------------------------------------------------------------------------------------------------------> 
+				<div id="contentSolana">
+					<div class="content">
+						<div class="col2">
+							<img src="images/solana_img.png">
+						</div>
+						<div class="col2">
+							<h2>CHWAD <br><span style="color:#fff">ON SOL</span></h2>
+							<p>Sol CHWAD for life!</p>
+							<div class="btn" onclick="socialClick('dexscreener')">CHART</div>
+						</div>
+					</div>					
+				</div>
+
+				<!-- GALLERY -->
+				<!------------------------------------------------------------------------------------------------------> 
+				<div id="contentGallery">
+					<div class="content">
+						<a id="insta"></a>
+						<h2>GALLERY</h2>
+						<p>Show your dedication to the CHWAD Life and share.</p>
+						<div class="gallery">
+							<div class="col3"><img src="images/insta_v003.png"></div>
+							<div class="col3"><img src="images/insta_v002.png"></div>
+							<div class="col3"><img src="images/insta_v007.jpeg"></div>
+							<div class="col3"><img src="images/insta_v004.png"></div>
+							<div class="col3"><img src="images/insta_v008.jpeg"></div>
+							<div class="col3"><img src="images/insta_v006.png"></div>
+						</div>
+						 
+						<div class="socials">
+							<div class="btn_sq btnSocial" onclick="socialClick('twitter')">
+								<img src="images/x.svg">
+							</div>
+							<div class="btn_sq btnSocial" onclick="socialClick('telegram')">
+								<img src="images/telegram.svg">
+							</div>
+						</div>
+
+					</div>
+					<div id="consoleOutput" style="display:none;">Console:</div>
+				</div>
+
+				<!-- FOOTER -->
+				<!------------------------------------------------------------------------------------------------------>
+				<div id="footer">
+					<div class="content" style="font-size:16px;">
+						$CHWAD is a memecoin token on Solana, this is a token for entertainment purposes only and does not guarantee a return. By participating in $CHWAD you are agreeing you understand how to use cryptocurrency and do not expect a return on any $SOL used to participate. Furthermore, you agree you are using our token for entertainment purposes only!
+ 						<br><br>
+						© 2024 Chwad.life - All Rights Reserved.
+						<br><br><br>
+						<h4>CHWAD <span style="color:#fff">ON SOLANA</span></h4>
+						<br>
+
+					</div>
+						<img src="images/footer_img.png">
+				</div>
+
+	
+</body></html>
